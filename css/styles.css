@@ -241,10 +241,10 @@ p {
     }
     .carousel {
         top: 0rem;
-        height: 10.5rem;
-        top: 6.5rem;
-        position: relative;
-        width: 104%;
+    height: 10.5rem;
+    top: 3.5rem;
+    position: relative;
+    width: 172%;
     }
     #profile {
         margin-left: 40%;
