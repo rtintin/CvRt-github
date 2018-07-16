@@ -22,7 +22,7 @@ h1 {
 
 h2 {
     margin-left: 42%;
-    text-shadow: 1px 0px 1px bleu;
+    text-shadow: 1px 0px 1px black;
     position: relative;
     z-index: 4;
     top: -24rem;
