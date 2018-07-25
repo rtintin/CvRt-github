@@ -7,7 +7,7 @@
 
 #block1 {
     width: 100%;
-    height: 100%;
+    height: 120%;
 }
 
 h1 {
@@ -20,93 +20,24 @@ h1 {
     font-size: 7rem;
 }
 
-h2 {
-    margin-left: 42%;
-    text-shadow: 1px 0px 1px black;
-    position: relative;
-    z-index: 4;
-    top: -24rem;
-    color: aliceblue;
-    font-size: 3rem;
-}
-
-#profile {
-    border: solid 1px black;
-    margin-top: 10rem;
-    width: 10rem;
-    border-radius: 77px;
-}
-
-#profile:hover {
-    background-image: url(../image/icons8-bootstrap-48.png);
-}
-
 p {
     text-align: center;
 }
 
-#icone img {
-    width: 1rem;
+#block2 {
+    height: 50%;
+    color: white;
 }
 
-#block2 {
+#block3 {
+    font-size: 5rem;
     color: white;
     width: 100%;
     height: 100%;
 }
 
-#block3 {
-    text-align: center;
-    width: 100%;
-    height: 100%;
-}
-
-#case {
-    margin-top: 15%;
-    justify-content: space-around;
-    display: flex;
-}
-
-.bleu {
-    background-color: rgb(220, 220, 220, 0.27);
-    box-shadow: 1px 1px 12px;
-    width: 13rem;
-    height: 13rem;
-}
-
-.red {
-    box-shadow: 1px 1px 12px;
-    background-color: gainsboro;
-    width: 13rem;
-    height: 13rem;
-}
-
-.bleu:hover {
-    transform: rotate3d(1, 1, 1, 45deg);
-}
-
-.red:hover {
-    transform: rotate3d(1, 1, 1, 45deg);
-}
-
-.yellow:hover {
-    transform: rotate3d(1, 1, 1, 45deg);
-}
-
-.yellow {
-    box-shadow: 1px 1px 12px;
-    background-color: gainsboro;
-    width: 13rem;
-    height: 13rem;
-}
-
-#co {
-    font-size: 41px;
-    position: relative;
-    top: 60px;
-}
-
 #block4 {
+    background-color: rgba(20, 20, 64, 1);
     width: 100%;
     height: 150%;
 }
@@ -178,11 +109,12 @@ p {
 
 ._animation-photo {
     position: relative;
-    margin: 0 auto;
+    margin-left: -15%;
+    margin-top: -50%;
     width: 50%;
     height: 500px;
     transform: scale(1);
-    -webkit-transform: scale(0.6);
+    -webkit-transform: scale(0.2);
     -moz-transform: scale(0.6);
     -ms-transform: scale(0.6);
     -o-transform: scale(0.6);
@@ -234,24 +166,25 @@ p {
         width: 100%;
     }
     h1 {
-        
         top: -59px;
         position: relative;
         font-size: 2rem;
         z-index: 1;
     }
     .carousel {
-    top: 0rem;
-    height: 10.5rem;
-    top: 3.5rem;
-    position: relative;
-    width: 100%;
+        top: 0rem;
+        height: 10.5rem;
+        top: 3.5rem;
+        position: relative;
+        width: 100%;
     }
+
     #profile {
         margin-left: 40%;
         width: 5rem;
         text-align: center;
         margin-top: 0rem;
+
     }
     #block1 {
         width: 100%;
@@ -261,9 +194,13 @@ p {
         position: relative;
         width: 100%;
         height: 50%;
-        top: 86px;
-        width: 100%;
-        height: 50%;
+        top: 0px;
+    }
+    #block2 #ip {
+        width: 1rem;
+    }
+    .row {
+        margin-top: 0;
     }
     #block3 {
         background-color: rgba(169, 169, 169, 0.5);
@@ -271,8 +208,10 @@ p {
         height: 50%;
     }
     #block4 {
+        position: relative;
         width: 100%;
-        height: 50%;
+        height: 65%;
+        top: 280px;
     }
     #footer {
         font-size: 0.5;
@@ -281,13 +220,13 @@ p {
         font-size: 60%;
     }
     #co {
-        top:1px;
-        color:white;
+        top: 1px;
+        color: white;
         font-size: 16px;
     }
     ._animation-photo {
-    -webkit-transform: scale(0.4);
-    height: 100px;
+        -webkit-transform: scale(0.4);
+        height: 100px;
     }
     .footer {
         font-size: 33%;
@@ -301,6 +240,10 @@ p {
         top: -10rem;
         font-size: 4rem;
     }
+    .row {
+        font-size: 1%;
+        margin-top: 0%;
+    }
     #profile {
         width: 5rem;
     }
@@ -311,6 +254,10 @@ p {
     #block2 {
         width: 100%;
         height: 50%;
+        top: 0px;
+    }
+    #ip {
+        width: 1rem;
     }
     #block3 {
         width: 100%;
@@ -330,7 +277,6 @@ p {
     .paragraphe {
         font-size: 60%;
     }
-
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -348,12 +294,12 @@ p {
     }
     h1 {
         z-index: 1;
-        top: -20rem;
+        top: -30rem;
         font-size: 7rem;
     }
     #block1 {
         width: 100%;
-        height: 100%;
+        height: 123%;
     }
     #block2 {
         width: 100%;
@@ -368,7 +314,6 @@ p {
         height: 100%;
     }
     .carousel {
-        top: 0rem;
         height: 78%;
         top: 3rem;
         position: relative;
