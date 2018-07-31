@@ -29,7 +29,6 @@ p {
     color: white;
 }
 
-
 #block4 {
     background-color: rgba(158, 158, 158, 0.18);
     width: 100%;
@@ -152,7 +151,9 @@ p {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+
 /* ______________ */
+
 #row1 {
     margin-top: 10%;
     display: flex;
@@ -165,8 +166,9 @@ p {
     margin-top: 5%;
     width: 5rem;
 }
-#co{
-    right:5%;
+
+#co {
+    right: 5%;
     position: relative;
     width: 100%;
 }
@@ -223,6 +225,8 @@ p {
         font-size: 60%;
     }
     ._animation-photo {
+        margin-left: -10%;
+        margin-top: -46%;
         right: -38%;
         position: relative;
         width: 50%;
@@ -287,7 +291,6 @@ p {
     #co {
         top: -16%;
         position: relative;
-
     }
     #profile {
         width: 5rem;
