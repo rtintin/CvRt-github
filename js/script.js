@@ -10,16 +10,6 @@ $('#lien1').on('click', function () {
     });
 });
 
-$('#lien2').on('click', function () {
-
-    var block3 = document.getElementById('block3');
-    var pb3 = block3.offsetTop;
-
-    TweenLite.to(body, 1, {
-        scrollTop: pb3,
-        ease: Power2.easeOut
-    });
-});
 
 $('#lien3').on('click', function () {
 
@@ -32,16 +22,7 @@ $('#lien3').on('click', function () {
     });
 });
 
-$('#lien4').on('click', function () {
 
-    var block4 = document.getElementById('block1');
-    var pb4 = block4.offsetTop;
-
-    TweenLite.to(body, 1, {
-        scrollTop: pb4,
-        ease: Power2.easeOut
-    });
-});
 
 
 // ----------
