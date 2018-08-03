@@ -9,11 +9,11 @@
     width: 100%;
     height: 120%;
 }
+
 #block3 {
     width: 100%;
     height: 90%;
 }
-
 
 #block4 {
     background-color: rgba(158, 158, 158, 0.18);
@@ -22,7 +22,7 @@
 }
 
 #block5 {
-    color:white;
+    color: white;
     height: 70%;
     width: 100%;
     font-size: 5rem;
@@ -30,34 +30,38 @@
 
 #block6 {
     height: 70%;
-    width: 100%;  
+    width: 100%;
 }
+
 #block7 {
     height: 70%;
-    width: 100%;  
+    width: 100%;
 }
-#cinema{
+
+#cinema {
     background-image: url(../image/cine.jpg);
     background-size: cover;
     height: 100%;
-    width: 100%; 
+    width: 100%;
 }
+
 #descine {
-    background-color:#3f3f3f;
+    background-color: #3f3f3f;
     height: 100%;
     width: 100%;
 }
-#desport{
+
+#desport {
     background-image: url(../img/croos.jpg);
     background-size: cover;
 }
-#electrique{
+
+#electrique {
     background-image: url(../img/viva2.jpg);
     background-size: cover;
     height: 100%;
-    width: 100%; 
+    width: 100%;
 }
-
 
 h1 {
     background-color: rgb(128, 128, 128, 0.42);
@@ -84,7 +88,6 @@ p {
     margin-left: 2rem;
     font-size: 100%;
 }
-
 
 .container-fluide #block2 {
     color: white;
@@ -271,13 +274,11 @@ p {
         top: 1%;
         position: relative;
         width: 100%;
-        height: 124%;
+        height: 155%;
     }
     #block3 {
-        height: 100%;
-        display: block;
-        margin-top: 20%;
-    
+        height: 110%;
+
     }
     #block4 {
         width: 100%;
@@ -295,7 +296,6 @@ p {
         width: 50%;
         height: 35%;
     }
-    
     #footer {
         font-size: 0.5;
     }
@@ -366,7 +366,6 @@ p {
         margin-top: 0%;
         font-size: 10;
     }
-
     #co {
         top: -16%;
         position: relative;
@@ -435,7 +434,7 @@ p {
     }
     #block2 {
         width: 100%;
-        height: 100%;
+        height: 120%;
     }
     #block3 {
         width: 100%;
