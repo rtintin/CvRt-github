@@ -9,6 +9,54 @@
     width: 100%;
     height: 120%;
 }
+#block3 {
+    width: 100%;
+    height: 70%;
+}
+
+
+#block4 {
+    background-color: rgba(158, 158, 158, 0.18);
+    width: 100%;
+    height: 150%;
+}
+
+#block5 {
+    color:white;
+    height: 70%;
+    width: 100%;
+    font-size: 5rem;
+}
+
+#block6 {
+    height: 70%;
+    width: 100%;  
+}
+#block7 {
+    height: 70%;
+    width: 100%;  
+}
+#cinema{
+    background-image: url(../image/cine.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%; 
+}
+#descine {
+    background-color:#3f3f3f;
+    height: 100%;
+    width: 100%;
+}
+#desport{
+    background-image: url(../img/croos.jpg);
+    background-size: cover;
+}
+#electrique{
+    background-image: url(../img/viva2.jpg);
+    background-size: cover;
+
+}
+
 
 h1 {
     background-color: rgb(128, 128, 128, 0.42);
@@ -20,22 +68,55 @@ h1 {
     font-size: 7rem;
 }
 
+h2 {
+    margin-top: 8rem;
+}
+
 p {
     font-size: 2rem;
     text-align: center;
 }
 
+#description {
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    font-size: 100%;
+}
+
+
 .container-fluide #block2 {
     color: white;
 }
 
-#block4 {
-    background-color: rgba(158, 158, 158, 0.18);
+.carousel {
+    top: 0rem;
+    height: 0rem;
+    top: 3rem;
+    position: relative;
     width: 100%;
-    height: 150%;
+}
+
+#row1 {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#ip {
+    margin-top: 5%;
+    width: 5rem;
+}
+
+#co {
+    right: 5%;
+    position: relative;
+    width: 100%;
 }
 
 /* --------- */
+
+/* social */
 
 .footer {
     bottom: 0;
@@ -89,14 +170,6 @@ p {
 }
 
 /* fin */
-
-.carousel {
-    top: 0rem;
-    height: 0rem;
-    top: 3rem;
-    position: relative;
-    width: 100%;
-}
 
 /* ----------------------------- */
 
@@ -154,25 +227,6 @@ p {
 
 /* ______________ */
 
-#row1 {
-    margin-top: 10%;
-    display: flex;
-    justify-content: space-around;
-    display: flex;
-    justify-content: space-around
-}
-
-#ip {
-    margin-top: 5%;
-    width: 5rem;
-}
-
-#co {
-    right: 5%;
-    position: relative;
-    width: 100%;
-}
-
 /* ----------------------- */
 
 /* -------debut Media----------------------- */
@@ -186,6 +240,9 @@ p {
         position: relative;
         font-size: 2rem;
         z-index: 1;
+    }
+    h2 {
+        margin-top: 2rem;
     }
     .carousel {
         top: 0rem;
@@ -210,14 +267,32 @@ p {
         height: 47%;
     }
     #block2 {
+        top: 1%;
         position: relative;
         width: 100%;
-        height: 150%;
+        height: 124%;
+    }
+    #block3 {
+        display: block;
+        margin-top: 20%;
     }
     #block4 {
         width: 100%;
         height: 80%;
     }
+    #block5 {
+        width: 50%;
+        height: 35%;
+    }
+    #block6 {
+        width: 50%;
+        height: 35%;
+    }
+    #block7 {
+        width: 50%;
+        height: 35%;
+    }
+    
     #footer {
         font-size: 0.5;
     }
@@ -323,7 +398,7 @@ p {
         margin-top: -3px;
     }
     p {
-        font-size: 4px;
+        font-size: 1px;
         text-align: center;
     }
 }
@@ -356,11 +431,24 @@ p {
     }
     #block3 {
         width: 100%;
-        height: 100%;
+        height: 90%;
+        display: flex;
     }
     #block4 {
         width: 100%;
         height: 100%;
+    }
+    #block5 {
+        width: 100%;
+        height: 70%;
+    }
+    #block6 {
+        width: 100%;
+        height: 70%;
+    }
+    #block7 {
+        width: 100%;
+        height: 70%;
     }
     .carousel {
         height: 78%;
