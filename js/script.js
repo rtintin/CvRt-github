@@ -21,6 +21,16 @@ $('#lien3').on('click', function () {
         ease: Power2.easeOut
     });
 });
+$('#lien2').on('click', function () {
+
+    var passion = document.getElementById('passion');
+    var pb2 = passion.offsetTop;
+
+    TweenLite.to(body, 1, {
+        scrollTop: pb2,
+        ease: Power2.easeOut
+    });
+});
 
 
 
