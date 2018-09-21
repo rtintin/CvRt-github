@@ -4,7 +4,7 @@
     outline: 0;
     border: 0;
 }
-
+/* block */
 #block1 {
     width: 100%;
     height: 120%;
@@ -37,12 +37,12 @@
     height: 70%;
     width: 100%;
 }
+/* block */
+
 #para{
     color: white;
     font-size: 1rem;
 }
-
-
 
 #cinema {
     background-image: url(../img/vert.jpg);
